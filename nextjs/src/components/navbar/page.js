@@ -5,9 +5,13 @@ import Dropdown from '../dropdown/page';
 
 const NavBar = () => {
   return (
-    <Navbar>
+    
+    <Navbar className='relative bg-black border-1 border-white'>
       <NavbarBrand>
-        <p className="font-bold text-inherit text-3xl italic font-serif" >Has a Tag?</p>
+      <a href='/'>
+      <h1 className='text-white text-3xl font-bold font-serif'>Has Tag</h1>
+            
+             </a>
       </NavbarBrand>
       <NavbarContent justify="end">
         <Dropdown/>
