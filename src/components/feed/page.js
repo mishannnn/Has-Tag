@@ -31,7 +31,7 @@ const Feed = () => {
         {(item) => (
           <Tab key={item.id} title={item.label}>
             <Card className="bg-transparent text-white shadow-lg border-gray-500 border-1 ml-4 mt-10 h-screen">
-              <CardBody className="overflow-auto scrollbar-hide">
+              <CardBody className="scrollbar-hide">
                 <div className='bg-transparent h-fit w-full'>
                 <div className='m-6'><Avat/><Des/></div>
 

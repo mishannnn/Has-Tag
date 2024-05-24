@@ -15,7 +15,7 @@ const NavBarAF = () => {
       <h1 className='text-3xl font-bold text-white shadow-black font-serif'>Has Tag</h1>
              </a>
       </NavbarBrand>
-      <NavbarContent justify="end" className='relative left-64'>
+      <NavbarContent justify="end" className='relative left-[520px]'>
         <div className='flex m-8'>
         <Input/>
         <Dropdown/>
