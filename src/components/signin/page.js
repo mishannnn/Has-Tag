@@ -3,7 +3,7 @@ import { Card, Input, Button, CardHeader, CardBody, CardFooter, Divider, Image }
 
 const CardComponent1 = () => {
   return (
-    <Card className="w-[380px] h-auto mt-3 mb-0 bg-zinc-950">
+    <Card className="w-[380px] min-h-screen mt-3 mb-0 bg-zinc-950">
       <CardHeader className="flex gap-3 items-center">
       <h1 className='text-white font-bold text-6xl'>#</h1>
         <div>

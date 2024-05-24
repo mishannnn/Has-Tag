@@ -6,9 +6,10 @@ import CardComponent1 from '@/components/signin/page';
 export default function reg() {
   return (
     <>
+    <div className='bg-black min-h-screen'>
         <NavBar />
-        <div className='bg-black w-full h-full'>
-        <div className='flex justify-center space-x-72 mt-0 mb-0 border-1 border-white h-full w-full'>
+        
+        <div className='flex justify-center space-x-72 mt-0 mb-0  border-white min-h-screen w-full'>
           <Image
             isBlurred
             isZoomed
