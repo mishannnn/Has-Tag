@@ -3,13 +3,13 @@ import { Image } from '@nextui-org/react';
 import NavBar from '@/components/navbar/page';
 import CardComponent1 from '@/components/signin/page';
 
-export default function reg() {
+export default function Reg() {
   return (
     <>
-    <div className='bg-black min-h-screen'>
+      <div className="bg-black min-h-screen flex flex-col">
         <NavBar />
-        
-        <div className='flex justify-center space-x-72 mt-0 mb-0  border-white min-h-screen w-full'>
+
+        <div className="flex justify-center items-center flex-grow space-x-[190px] mt-0 border-white w-full">
           <Image
             isBlurred
             isZoomed
@@ -17,10 +17,10 @@ export default function reg() {
             height={180}
             src="sign.png"
             alt="NextUI Album Cover"
-            className="mt-32 bg-white"
+            className="mt-none bg-white"
           />
-            <CardComponent1/>
-          </div>
+          <CardComponent1 />
+        </div>
       </div>
     </>
   );
