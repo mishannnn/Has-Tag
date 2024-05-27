@@ -1,10 +1,10 @@
 'use client'
-import Buttons from '@/components/button/page';
+import React from 'react';
 import NavBarAF from '@/components/navbar_Af_login/page';
 import Feed from '@/components/feed/page';
-import React from 'react';
 
-const home2 = () => {
+
+const Home = () => {
   return (
     <div className="bg-black min-h-screen flex flex-col relative">
       <NavBarAF />
@@ -13,7 +13,7 @@ const home2 = () => {
         <div className='flex-col flex'>
         <div className='w-[270px] h-[450px] bg-black border-r border-gray-500 mt-[70px] ml-1 rounded-3xl text-center shadow-sm shadow-gray-500'>
           <div className="border-b border-gray-300 m-2"></div>
-          <h1 className='text-white mt-1 font-bold text-2xl'>Trending</h1>
+          <h1 className='text-white mt-1 font-bold text-2xl bg-gray-500'>Trending</h1>
           <ul className="text-white text-xl items-center flex flex-col space-y-3 mt-4 ">
     <li className="w-full text-center hover:underline cursor-pointer">#Football</li>
     <li className="w-full text-center hover:underline cursor-pointer">#China</li>
@@ -25,7 +25,7 @@ const home2 = () => {
   </ul>
         </div>
 <div className='bg-transparent border-1 border-gray-500 w-[250px] h-40 m-4 rounded-lg'>
-  <h1 className='text-center font-bold text-xl text-white m-2'>You might like</h1>
+  <h1 className='text-center font-bold text-xl text-white m-2 bg-gray-500'>You might like</h1>
 </div>
         </div>
 
@@ -46,4 +46,4 @@ const home2 = () => {
   );
 };
 
-export default home2;
+export default Home;
