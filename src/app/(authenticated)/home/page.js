@@ -32,7 +32,7 @@ const Home = () => {
       <Feed/>
         
       <div className='bg-black border-l border-gray-500 pt-24 flex flex-col text-2xl text-white fixed top-0 right-0 h-screen w-32 object-cover'>
-  <img src='./home.png' className='w-14 h-14 border-2 hover:scale-110 border-white rounded-full bg-white ml-2 mt-0 mb-7'></img>
+   <img src='./home.png' className='w-14 h-14 border-2 hover:scale-110 border-white rounded-full bg-white ml-2 mt-0 mb-7'></img> 
   <img src='./notification.png' className='w-14 h-14 border-2 hover:scale-110 border-white rounded-full ml-2 bg-white mt-5 mb-7'></img>
   <img src='./chat.png' className='w-14 h-14 border-2 hover:scale-110 border-white rounded-full bg-white mt-5 ml-2 mb-7'></img>
   <img src='./profile-user.png' className='w-14 h-14 hover:scale-110 border-2 border-white rounded-full bg-white ml-2 mt-5 mb-7'></img>

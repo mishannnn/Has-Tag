@@ -1,10 +1,12 @@
 import React from 'react';
 import { Tabs, Tab, Card, CardBody, Button } from "@nextui-org/react";
 import Des from '../descriptionbox/page';
-import Avat from '../../../nextjs/src/components/avatar/page';
+import Avat from '../avatar/page';
 import Fcontent from '../(Globalcontents)/following/page';
 import Global from '../(Globalcontents)/global/page';
 import Nepal from '../(Globalcontents)/Nepal/page';
+import { CiImageOn, CiLocationOn, CiShoppingTag } from "react-icons/ci";
+import { FaCamera } from "react-icons/fa";
 
 const Feed = () => {
   let tabs = [
@@ -36,9 +38,10 @@ const Feed = () => {
                 <div className='m-6'><Avat/><Des/></div>
 
                 <div className='flex ml-14 w-fit'>
-                <img src='./image.png' className='w-5 h-5 m-1 border-1 bg-white rounded border-blue-900'></img>
-                <img src='./location.png' className='w-5 h-5  bg-white rounded m-1 border-1 border-blue-900'></img>
-                <img src='./happy.png' className='w-5 h-5  bg-white rounded m-1 border-2 border-blue-900'></img>
+                <FaCamera  className='m-2 h-5 w-5 hover:bg-gray-500 border-b'/>
+                <CiImageOn  className='m-2 h-5 w-5'/>
+                <CiLocationOn  className='m-2 h-5 w-5'/>
+                <CiShoppingTag className='m-2 h-6 w-6'/>
               </div>
 
 
