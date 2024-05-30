@@ -21,7 +21,8 @@ const CardComponent = () => {
       <Divider />
       <CardFooter className="flex justify-center">
         
-       <a href='/register' className='text-white'> Don't have an account? <span className='text-blue-800'> Sign up</span> </a>
+      <p className='text-white'>Don't have an account? <a href="/register" className='text-blue-500'>Sign up</a></p>
+
       </CardFooter>
     </Card>
   );
