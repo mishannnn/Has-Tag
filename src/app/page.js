@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../components/login/page'; // Adjust the import path based on the actual location of your card.js file
+import Card from './(unauthenticated)/login/page'; // Adjust the import path based on the actual location of your card.js file
 import { Image } from '@nextui-org/react';
 import NavBar from '@/components/navbar/page';
 
